@@ -152,8 +152,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
     else  {
       return "#ea822c";
     }
-  }
-   
+  } 
   
   // 6. Use the function that determines the radius of the earthquake marker based on its magnitude.
    // Earthquakes with a magnitude of 0 were being plotted with the wrong radius.
@@ -184,9 +183,9 @@ style: styleInfo,
 // Then we add the earthquake layer to our map.
 }).addTo(majorEQ);
 
-
   // 8. Add the major earthquakes layer to the map.
   majorEQ.addTo(map);
+
   // 9. Close the braces and parentheses for the major earthquake data.
   });
   
